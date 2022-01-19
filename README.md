@@ -3,6 +3,8 @@
 
 A [zerolog](https://github.com/rs/zerolog) Logger/Recoverer middleware for [chi](https://github.com/go-chi/chi).
 
+![carbon](https://user-images.githubusercontent.com/6241454/150070893-8cc19034-7c66-4a7d-a245-59fc64125043.png)
+
 ## Install
 `go get -u github.com/Lavalier/zchi`
 
