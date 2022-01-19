@@ -1,4 +1,4 @@
-module github.com/Lavalier/zerolog-chi
+module github.com/Lavalier/zchi
 
 go 1.17
 
