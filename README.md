@@ -1,4 +1,6 @@
 # zchi
+[![Go Reference](https://pkg.go.dev/badge/github.com/Lavalier/zchi.svg)](https://pkg.go.dev/github.com/Lavalier/zchi)
+
 A [zerolog](https://github.com/rs/zerolog) Logger/Recoverer middleware for [chi](https://github.com/go-chi/chi).
 
 ## Install
