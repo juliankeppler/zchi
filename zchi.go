@@ -18,7 +18,7 @@ func Logger(logger zerolog.Logger) func(next http.Handler) http.Handler {
 					logger.Error().Interface("recover", r).Bytes("stack", debug.Stack()).Msg("incoming_request_panic")
 					ww.WriteHeader(http.StatusInternalServerError)
 				}
-				logger.Info().Fields(map[string]interface{}{
+				logger.Debug().Fields(map[string]interface{}{
 					"remote_addr": r.RemoteAddr,
 					"path":        r.URL.Path,
 					"proto":       r.Proto,
