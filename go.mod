@@ -1,4 +1,4 @@
-module github.com/Lavalier/zchi
+module github.com/juliankeppler/zchi
 
 go 1.17
 
